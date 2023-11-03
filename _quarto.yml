@@ -1,13 +1,34 @@
 project:
   type: website
+  render: 
+  -index.qmd
+  -FCB/Readme.qmd
+  -Arsenal/Readme.qmd
 
 website:
-  title: "Site"
+Back-to-top-navigation: True
+Page-navigation: True
+  title: "Site de Foot"
+  site-url: http://Arthur-tena.github.io
+  repo-url: https://github.com/Arthur-tena/Arthur-tena.github.io
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+   title: "site de foot"
+   background: primary
+   search: True
+   left:
+    -sidebar:FCB
+    -sidebar:Arsenal 
+  sidebar:
+   id: FCB
+   title: "FC Barcelone"
+   contents: 
+   -FCB/Readme.qmd
+
+   id: Arsenal
+   title: "Arsenal FC"
+   contents: 
+   -Arsenal/Readme.qmd
+
 
 format:
   html:
