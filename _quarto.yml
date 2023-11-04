@@ -25,7 +25,7 @@ website:
        -sidebar:Barça
        -sidebar:Arsenal 
        -sidebar:Analyse
-    sidebar:
+     sidebar:
      -id: Barça
       title: "FC Barcelone"
       contents: 
