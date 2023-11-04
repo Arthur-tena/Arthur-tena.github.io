@@ -4,6 +4,7 @@ project:
   -index.qmd
   -FCB/Readme.qmd
   -Arsenal/Readme.qmd
+  -Analyse/Analyse.qmd
 
 website:
 Back-to-top-navigation: True
@@ -18,6 +19,7 @@ Page-navigation: True
    left:
     -sidebar:FCB
     -sidebar:Arsenal 
+    -sidebar:Analyse
   sidebar:
    id: FCB
    title: "FC Barcelone"
