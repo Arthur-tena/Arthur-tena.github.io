@@ -6,8 +6,8 @@ project:
   -Arsenal/Arsenal.qmd
   -Analyse/Analyse.qmd
 website:
-Back-to-top-navigation: True
-Page-navigation: True
+ Back-to-top-navigation: True
+ Page-navigation: True
   title: "Site de Foot"
   site-url: http://Arthur-tena.github.io
   repo-url: https://github.com/Arthur-tena/Arthur-tena.github.io
