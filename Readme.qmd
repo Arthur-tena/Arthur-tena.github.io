@@ -3,3 +3,4 @@ title: "Acceuil"
 format: html
 ---
 
+Ici c'est l'acceuil du site.

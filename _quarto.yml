@@ -3,7 +3,7 @@ project:
   render: 
   -index.qmd
   -FCB/Readme.qmd
-  -Arsenal/Readme.qmd
+  -Arsenal/Arsenal.qmd
   -Analyse/Analyse.qmd
 
 website:
@@ -14,14 +14,9 @@ Page-navigation: True
   repo-url: https://github.com/Arthur-tena/Arthur-tena.github.io
   # sidebar:
   # left:
-  #   contents:
-  #     - section: "Overview"
-  #       contents:
-  #         - href: index.qmd
-  #     - section: "Courses"
   # contents:
   #   - href: Analyse/Analyse.qmd
-  #   - href: Arsenal/Readme.qmd
+  #   - href: Arsenal/Arsenal.qmd
   #   - href: FCB/Readme.qmd
   # menu: false
   navbar:
@@ -41,7 +36,12 @@ Page-navigation: True
    id: Arsenal
    title: "Arsenal FC"
    contents: 
-   -Arsenal/Readme.qmd
+   -Arsenal/Arsenal.qmd
+
+   id: Analyse
+   title: "Analyse de match"
+   contents: 
+   -Analyse/Analyse.qmd
 
 
 format:
