@@ -5,7 +5,6 @@ project:
   -FCB/Readme.qmd
   -Arsenal/Arsenal.qmd
   -Analyse/Analyse.qmd
-
 website:
 Back-to-top-navigation: True
 Page-navigation: True
@@ -43,12 +42,27 @@ Page-navigation: True
    contents: 
    -Analyse/Analyse.qmd
 
-
 format:
   html:
-    theme: cosmo
-    css: styles.css
     toc: true
-
-
+    theme:
+      spacelab
+      # light: spacelab
+    # mainfont: Atkinson Hyperlegible
+    html-math-method: katex
+    number-sections: false
+    toc-depth: 3
+    code-fold: false
+    code-tools:
+      toggle: false
+      source: false
+    code-overflow: wrap
+    highlight-style: github
+    fig-responsive: true
+    fig.align: center
+    reference-location: margin
+    citation-location: margin
+    # self-contained: true
+    # fig-format: svg
+css: custom.css
 
