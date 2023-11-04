@@ -18,28 +18,28 @@ website:
   #   - href: Arsenal/Arsenal.qmd   #   - href: FCB/Readme.qmd
   # menu: false
  navbar:
-   title: "Site de foot"
-   background: primary
-   search: True
-   left:
-    -sidebar:Barça
-    -sidebar:Arsenal 
-    -sidebar:Analyse
- sidebar:
-   -id: Barça
-    title: "FC Barcelone"
-    contents: 
-     -FCB/Readme.qmd
+     title: "Site de foot"
+     background: primary
+     search: True
+     left:
+       -sidebar:Barça
+       -sidebar:Arsenal 
+       -sidebar:Analyse
+   sidebar:
+    -id: Barça
+     title: "FC Barcelone"
+     contents: 
+       -FCB/Readme.qmd
 
-   -id: Arsenal
-    title: "Arsenal FC"
-    contents: 
-     -Arsenal/Arsenal.qmd
+    -id: Arsenal
+     title: "Arsenal FC"
+     contents: 
+       -Arsenal/Arsenal.qmd
 
-   -id: Analyse
-    title: "Analyse de match"
-    contents: 
-     -Analyse/Analyse.qmd
+    -id: Analyse
+     title: "Analyse de match"
+     contents: 
+       -Analyse/Analyse.qmd
 
 format:
   html:
