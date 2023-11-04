@@ -1,10 +1,10 @@
 project:
   type: website
   render: 
-  -index.qmd
-  -FCB/Readme.qmd
-  -Arsenal/Arsenal.qmd
-  -Analyse/Analyse.qmd
+   -index.qmd
+   -FCB/Readme.qmd
+   -Arsenal/Arsenal.qmd
+   -Analyse/Analyse.qmd
 website:
  Back-to-top-navigation: True
  Page-navigation: True
@@ -15,8 +15,7 @@ website:
   # left:
   # contents:
   #   - href: Analyse/Analyse.qmd
-  #   - href: Arsenal/Arsenal.qmd
-  #   - href: FCB/Readme.qmd
+  #   - href: Arsenal/Arsenal.qmd   #   - href: FCB/Readme.qmd
   # menu: false
   navbar:
    title: "site de foot"
