@@ -22,11 +22,11 @@ website:
    background: primary
    search: True
    left:
-    -sidebar:FCB
+    -sidebar:Barça
     -sidebar:Arsenal 
     -sidebar:Analyse
  sidebar:
-   -id: FCB
+   -id: Barça
     title: "FC Barcelone"
     contents: 
      -FCB/Readme.qmd
