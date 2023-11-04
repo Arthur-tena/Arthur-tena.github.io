@@ -12,6 +12,18 @@ Page-navigation: True
   title: "Site de Foot"
   site-url: http://Arthur-tena.github.io
   repo-url: https://github.com/Arthur-tena/Arthur-tena.github.io
+  # sidebar:
+  # left:
+  #   contents:
+  #     - section: "Overview"
+  #       contents:
+  #         - href: index.qmd
+  #     - section: "Courses"
+  # contents:
+  #   - href: Analyse/Analyse.qmd
+  #   - href: Arsenal/Readme.qmd
+  #   - href: FCB/Readme.qmd
+  # menu: false
   navbar:
    title: "site de foot"
    background: primary
