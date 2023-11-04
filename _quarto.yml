@@ -17,7 +17,7 @@ website:
   #   - href: Analyse/Analyse.qmd
   #   - href: Arsenal/Arsenal.qmd   #   - href: FCB/Readme.qmd
   # menu: false
-  navbar:
+ navbar:
    title: "Site de foot"
    background: primary
    search: True
@@ -25,7 +25,7 @@ website:
     -sidebar:FCB
     -sidebar:Arsenal 
     -sidebar:Analyse
-  sidebar:
+ sidebar:
    -id: FCB
      title: "FC Barcelone"
      contents: 
